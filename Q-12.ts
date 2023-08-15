@@ -1,6 +1,6 @@
 let guest1:string[] = ["Omer", "Abubakar", "Usman", "Ali"];
 console.log(guest1.pop());
 
-for(let name of guest1){
-    console.log(`Aoa ${name}! You are pleased to invite.`);
+for (let i = 0; i < guest1.length; i++){
+    console.log(`Aoa ${guest1[i]}! You are pleased to invite.`);
 }

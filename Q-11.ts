@@ -1,5 +1,5 @@
 let guest:string[] = ["Omer", "Abubakar", "Usman", "Ali"];
 
-for(let name of guest){
-    console.log(`Aoa ${name}! You are pleased to invite.`)
+for (let i = 0; i < guest.length; i++){
+    console.log(`Aoa ${guest[i]}! You are pleased to invite.`)
 }
