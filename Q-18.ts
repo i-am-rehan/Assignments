@@ -25,3 +25,5 @@ for (let name of guest8) {
 console.log("The list is now empty:", guest8.length === 0);
 
 console.log(guest8);
+
+console.log(`Number of people invited to dinner: ${guest8.length}`);
